@@ -1,6 +1,6 @@
 package Backend;
 
-public interface EngineLand {
-    String moveWheels();
-    int getHorsePower();
+public interface EngineWater {
+    String moveJetPropulsion();
+    int getWaterSpeed();
 }
