@@ -1,5 +1,5 @@
-public abstract class WaterVehicle {
+public interface class WaterVehicle {
     
-    public abstract void pathPrograming();
+    void pathPrograming();
     
 }
