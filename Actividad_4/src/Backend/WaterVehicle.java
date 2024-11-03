@@ -1,5 +1,7 @@
-public abstract class WaterVehicle {
+package Backend;
+
+public interface WaterVehicle {
     
-    public abstract void pathPrograming();
+    void pathPrograming();
     
 }
