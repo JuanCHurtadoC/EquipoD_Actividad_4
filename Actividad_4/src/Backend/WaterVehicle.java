@@ -1,6 +1,6 @@
 package Backend;
 
-public interface class WaterVehicle {
+public interface WaterVehicle {
     
     void pathPrograming();
     

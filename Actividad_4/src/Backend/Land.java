@@ -20,12 +20,15 @@ public class Land extends Vehicle implements EngineLand {
 
     @Override
     public String description() {
-        return "vehiculo terrestre: " + brand + " (" + year + "), Tipo: " + type;
+        return "vehiculo terrestre: " + brand + " (" + year + "), Tipo: " + type + "de la ciudad: " + city.getName();
     }
 
     @Override
     public String moveWheels() {
         return "El vehiculo se mueve con ruedas.";
+    }
+    public String getCityInfo(){
+     return city.toString(); 
     }
      
 }
